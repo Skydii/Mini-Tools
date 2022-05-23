@@ -1,0 +1,6 @@
+# BMI calculator
+weight = int(input ("Enter your weight in kg"))
+height = int(input ("Enter your weight in cm"))
+height = height * 0.01
+BMI = weight/(height**2)
+print ("Your BMI is " + str(BMI))
